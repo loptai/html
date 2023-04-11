@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8>"
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bogklubben</title>
+        <link rel="stylesheet" href="styles/styles.css"
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">AI-fortællinger</h2>
+            <nav class="navigation">
+                <a href="#">Forside</a>
+                <a href="#">Priser & abonnementer</a>
+                <a href="#">FAQ</a>
+                <a href="#">Hvem er vi?</a>
+                <a href="#">Kontakt</a>
+                <button class="btnLogin-popup">Login</button>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Kordeord</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Husk mig</label>
+                        <a href="#">Glemt kodeord</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Har du ikke en bruger? <a href="#" class="register-link">Opret ny bruger</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Opret ny bruger</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Brugernavn</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Kodeord</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Jeg accepterer vilkår og betingelser</label>
+                    </div>
+                    <button type="submit" class="btn">Opret</button>
+                    <div class="login-register">
+                        <p>Har du allerede en bruger? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
